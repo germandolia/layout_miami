@@ -13,6 +13,13 @@ h3 {
   color: #0075ff;
   margin: 0; }
 
+h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
 .header__link, .nav__link {
   color: #fff;
   font-size: 12px;
@@ -61,13 +68,6 @@ textarea {
   src: url("../fonts/Roboto-Bold.ttf") format("ttf");
   font-weight: bold;
   font-style: normal; }
-
-h4 {
-  margin: 0;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 27px;
-  color: #9fadc2; }
 
 .application {
   display: -webkit-box;
@@ -185,7 +185,8 @@ html {
           justify-content: space-between; }
   .info__title {
     width: 328px;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: left; }
   .info__article {
     width: 500px; }
 
