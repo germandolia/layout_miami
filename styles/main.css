@@ -112,7 +112,7 @@ html {
   margin: 7px auto 37px; }
 
 .header {
-  background-image: url(images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-size: cover;
   margin-bottom: 50px; }
   .header__extra-links {
@@ -326,7 +326,7 @@ html {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url(images/footer.jpg);
+  background-image: url(../images/footer.jpg);
   background-size: cover;
   height: 400px; }
 
