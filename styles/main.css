@@ -5,7 +5,7 @@ h2 {
   line-height: 48px;
   letter-spacing: -1.5px;
   text-align: center; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     h2 {
       font-size: 36px;
       line-height: 36px; } }
@@ -89,7 +89,7 @@ textarea {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .callback__row {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -100,10 +100,10 @@ textarea {
                 align-items: center; } }
   .callback__article {
     width: 412px; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .callback__article {
         width: calc(100% - 10px); } }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .callback__form {
       width: 100%; } }
 
@@ -120,7 +120,7 @@ html {
   margin: 0 auto;
   width: calc(100% - 40px);
   max-width: 1050px; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .container {
       margin: 0;
       width: 100%; } }
@@ -168,10 +168,10 @@ html {
         height: 1px;
         width: 100%;
         background-color: #fff; }
-      @media screen and (max-width: 900px) {
+      @media screen and (max-width: 1024px) {
         .header__link--active {
           visibility: hidden; } }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .header__link--tel {
         text-indent: 100%;
         white-space: nowrap;
@@ -202,7 +202,7 @@ html {
       width: 35px;
       border-radius: 2px;
       background-color: #fff; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .header__title {
         margin: 0 10px;
         font-size: 46px;
@@ -218,7 +218,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   list-style: none; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .nav__list {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -233,7 +233,7 @@ html {
   .nav__item--active {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .nav__item {
       margin: 5px auto; } }
 
@@ -244,7 +244,7 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .info {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -255,12 +255,12 @@ html {
     margin: 45px 0;
     text-decoration: none;
     text-align: left; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .info__title {
         width: 100%; } }
   .info__article {
     width: 500px; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .info__article {
         width: calc(100% - 10px); } }
 
@@ -281,7 +281,7 @@ html {
     -o-object-position: center;
        object-position: center;
     border-radius: 8px; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .gallery__picture {
         height: 130px; } }
   .gallery__address {
@@ -332,7 +332,7 @@ html {
 
 .user-form {
   width: 413px; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     .user-form {
       width: 100%; } }
   .user-form__input {
@@ -417,7 +417,7 @@ html {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1024px) {
       .contacts__row {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
