@@ -451,8 +451,7 @@ small {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
-    border-radius: 8px;
-    overflow: hidden; }
+    border-radius: 8px; }
     .gallery__picture:hover {
       -webkit-transform: scale(0.97);
               transform: scale(0.97); }
