@@ -152,6 +152,52 @@ html {
 .small-logo {
   margin: 7px auto 37px; }
 
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
+
 .header {
   z-index: 1;
   margin-bottom: 50px;
@@ -238,6 +284,52 @@ html {
         font-size: 46px;
         line-height: 40px; } }
 
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -290,6 +382,52 @@ html {
     @media screen and (max-width: 1024px) {
       .info__article {
         width: calc(100% - 10px); } }
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
 
 .gallery {
   display: -webkit-box;
@@ -375,6 +513,52 @@ html {
       border-color: #fff;
       color: #fff; }
 
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
+
 .user-form {
   width: 413px; }
   @media screen and (max-width: 1024px) {
@@ -404,6 +588,52 @@ html {
       background: #0067df;
       -webkit-box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
               box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46); }
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
 
 .clients {
   display: -webkit-box;
@@ -481,6 +711,9 @@ html {
   .contacts__article {
     -ms-flex-item-align: start;
         align-self: flex-start; }
+  .contacts__link {
+    display: block;
+    color: #3e3e3e; }
 
 .footer {
   display: -webkit-box;
@@ -499,6 +732,52 @@ html {
   @media screen and (max-width: 500px) {
     .footer {
       height: 205px; } }
+
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  text-align: center; }
+  @media screen and (max-width: 960px) {
+    h2 {
+      font-size: 36px;
+      line-height: 36px; } }
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0075ff; }
+
+small {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27px;
+  color: #9fadc2; }
+
+.header__link, .nav__link, .nav-mobile__link, .nav-mobile__call, .nav-mobile__phone {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    color: #9fadc2; }
+  .header__link:hover, .nav__link:hover, .nav-mobile__link:hover, .nav-mobile__call:hover, .nav-mobile__phone:hover {
+    cursor: pointer; }
+
+.gallery__button, .user-form__button {
+  font-size: 16px;
+  line-height: 14px;
+  cursor: pointer; }
 
 .nav-mobile {
   position: absolute;
