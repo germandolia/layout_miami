@@ -29,7 +29,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -68,13 +67,13 @@ textarea {
   resize: none; }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf") format("ttf");
   font-weight: bold;
   font-style: normal; }
@@ -183,7 +182,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -201,8 +199,7 @@ small {
 .header {
   z-index: 1;
   margin-bottom: 50px;
-  background-image: url(../images/header.jpg);
-  background-size: cover; }
+  background: center/cover no-repeat url(../images/header.jpg); }
   @media screen and (max-width: 960px) {
     .header {
       height: 550px; } }
@@ -232,17 +229,20 @@ small {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .header__link {
-    position: relative; }
+    position: relative;
+    line-height: 18px; }
     .header__link--active {
-      outline: none; }
+      outline: none;
+      line-height: 30px; }
       @media screen and (max-width: 960px) {
         .header__link--active {
           visibility: hidden;
-          width: 18px; } }
+          width: 18px;
+          line-height: 18px; } }
       .header__link--active::after {
         content: "";
         position: absolute;
-        bottom: -8px;
+        bottom: 0;
         left: 0;
         height: 1px;
         width: 100%;
@@ -314,7 +314,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -354,6 +353,9 @@ small {
   @media screen and (max-width: 960px) {
     .nav__item {
       margin: 5px auto; } }
+
+.nav__link {
+  line-height: 16px; }
 
 .info {
   display: -webkit-box;
@@ -413,7 +415,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -504,11 +505,10 @@ small {
     color: #0075ff;
     border: 2px solid #0075ff;
     border-radius: 8px;
-    -webkit-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in; }
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s, color 0.5s; }
     .gallery__button:hover {
       background-color: #0075ff;
-      border-color: #fff;
       color: #fff; }
 
 h2 {
@@ -542,7 +542,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -618,7 +617,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -725,8 +723,7 @@ small {
           align-items: flex-end;
   height: 400px;
   width: 100%;
-  background-image: url(../images/footer.jpg);
-  background-size: cover; }
+  background: center/cover no-repeat url(../images/footer.jpg); }
   @media screen and (max-width: 500px) {
     .footer {
       height: 205px; } }
@@ -762,7 +759,6 @@ small {
   transition: color 0.3s;
   color: #fff;
   font-size: 12px;
-  line-height: 18px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
