@@ -202,7 +202,20 @@ small {
   background: center/cover no-repeat url(../images/header.jpg); }
   @media screen and (max-width: 960px) {
     .header {
-      height: 550px; } }
+      height: 100vh; } }
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    min-height: 650px; }
   .header__extra-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -225,9 +238,10 @@ small {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 100%; }
   .header__link {
     position: relative;
     line-height: 18px; }
@@ -263,7 +277,7 @@ small {
           background: url(../images/phone.svg) no-repeat; } }
   .header__title {
     position: relative;
-    margin: 300px 0 30px 25px;
+    margin: 30px 25px;
     font-size: 60px;
     line-height: 60px;
     font-weight: bold;
@@ -778,10 +792,17 @@ small {
   z-index: 1;
   top: 0;
   left: 0;
-  display: none;
-  height: 550px;
+  height: 100vh;
   width: 100%;
-  background-color: #0075ff; }
+  background-color: #0075ff;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+  -webkit-transform: translate(-100%, 0);
+          transform: translate(-100%, 0);
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
   .nav-mobile__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -801,11 +822,13 @@ small {
     font-size: 22px;
     line-height: 22px; }
   .nav-mobile__call, .nav-mobile__phone {
-    padding: 0 20px; }
+    position: relative;
+    margin: 0;
+    padding: 10px 20px; }
   .nav-mobile__call::after {
     content: "";
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     left: 20px;
     height: 1px;
     width: 111px;
@@ -840,7 +863,8 @@ small {
       height: 40px;
       cursor: pointer; }
       .menu-mobile__toggler:checked ~ .nav-mobile {
-        display: block; }
+        -webkit-transform: none;
+                transform: none; }
       .menu-mobile__toggler:checked ~ .menu-mobile::after {
         content: url(../images/cross.svg);
         z-index: 3; } }
