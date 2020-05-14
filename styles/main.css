@@ -805,7 +805,7 @@ small {
   .nav-mobile__call::after {
     content: "";
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     height: 1px;
     width: 111px;
